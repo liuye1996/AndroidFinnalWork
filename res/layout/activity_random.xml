@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="摇一摇随机抽取一位同学点名\n\n或点击下面按钮"/>
+    <Button
+        android:id="@+id/ranBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="点击抽取"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.n551.finnal">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".addActivtiy" android:label="@string/add_name" />
+        <activity android:name=".turnActivity" android:label="@string/turn_name"/>
+        <activity android:name=".randomActivity" android:label="@string/random_name" />
+        <activity android:name=".random2Activity" android:label="@string/random_name" />
+        <activity android:name=".webActivity" android:label="@string/web_name" />
+        <activity android:name=".selectActivity" android:label="@string/select_name" />
+        <activity android:name=".numberActivity" android:label="@string/number_name" />
+
+        <receiver android:name=".TestReceiver">
+            <intent-filter><action android:name="abc"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

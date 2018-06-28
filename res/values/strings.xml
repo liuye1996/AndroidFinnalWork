@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">finnal</string>
+    <string name="add_name">添加修改信息</string>
+    <string name="turn_name">顺序点名</string>
+    <string name="random_name">随机点名</string>
+    <string name="select_name">查询信息</string>
+    <string name="web_name">公告</string>
+    <string name="number_name">学生信息</string>
+</resources>
